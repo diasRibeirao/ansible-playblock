@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+    - name: pull docker image
+      docker_image:
+        name: python:3-slim
+        source: pull
